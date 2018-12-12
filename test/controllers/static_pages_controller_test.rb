@@ -5,7 +5,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   test "should get home" do
     get static_pages_home_url
     assert_response :success
-    assert_select "title", "Home | Twitter-like SNS | MiniTwi"
+    assert_select "title", "Twitter-like SNS | MiniTwi"
   end
 
   test "should get help" do
