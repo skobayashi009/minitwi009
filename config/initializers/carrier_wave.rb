@@ -11,3 +11,4 @@ if Rails.env.production?
     config.fog_directory     =  ENV['minitwi']
   end
 end
+
